@@ -46,3 +46,8 @@ export interface StudentType {
     updatedAt: string,
     deletedAt: string | null
   }
+export interface RoomType {
+    id: number
+    name: string
+    capacity: number
+}

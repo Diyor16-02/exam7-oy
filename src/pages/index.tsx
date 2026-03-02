@@ -11,7 +11,9 @@ import Stacks from "./Dashboard/Stacks/Stacks"
 import StackMore from "./Dashboard/Stacks/StackMore"
 import StackCrud from "./Dashboard/Stacks/StackCrud"
 
-import Rooms from "./Dashboard/Rooms"
+import Rooms from "./Dashboard/Rooms/Rooms"
+import RoomCrud from "./Dashboard/Rooms/RoomCrud"
+import RoomMore from "./Dashboard/Rooms/RoomMore"
 
 import Teachers from "./Dashboard/Teachers/Teachers"
 import TeacherCrud from "./Dashboard/Teachers/TeacherCrud"
@@ -21,4 +23,4 @@ import Students from "./Dashboard/Students/Students"
 import StudentCrud from "./Dashboard/Students/StudentCrud"
 import StudentMore from "./Dashboard/Students/StudentMore"
 
-export {LoginHome, GroupMore,Login, DashboardHome, Groups, Stacks, Rooms, Teachers, StackCrud, StackMore, GroupsCrud, TeacherCrud, TeacherMore, Students, StudentCrud, StudentMore }
+export {LoginHome, GroupMore,Login, DashboardHome, Groups, Stacks, Rooms, Teachers, StackCrud, StackMore, GroupsCrud, TeacherCrud, TeacherMore, Students, StudentCrud, StudentMore, RoomCrud, RoomMore, }

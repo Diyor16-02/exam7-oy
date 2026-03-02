@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { PATH } from "../components"
-import { DashboardHome, GroupMore, Groups, GroupsCrud, Rooms, StackCrud, StackMore, Stacks, TeacherCrud, TeacherMore, Teachers, Students, StudentCrud, StudentMore} from "../pages"
+import { DashboardHome, GroupMore, Groups, GroupsCrud, Rooms, RoomCrud, RoomMore, StackCrud, StackMore, Stacks, TeacherCrud, TeacherMore, Teachers, Students, StudentCrud, StudentMore} from "../pages"
 import { Header, Sitebar } from "../modules"
 import { useContext } from "react"
 import { Context } from "../context/Context"
@@ -34,6 +34,10 @@ const DashboardRoute = () => {
     { id: 17, path: PATH.studentsCreate, element: <StudentCrud /> },
     { id: 18, path: PATH.studentsUpdate, element: <StudentCrud /> },
     { id: 19, path: PATH.studentsMore, element: <StudentMore /> },
+
+    { id: 20, path: PATH.roomsCreate, element: <RoomCrud /> },
+    { id: 21, path: PATH.roomsMore, element: <RoomMore /> },
+    { id: 22, path: PATH.roomsUpdate, element: <RoomCrud /> },
   ]
   return (
     <div className="flex">

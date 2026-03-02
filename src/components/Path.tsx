@@ -24,6 +24,9 @@ const PATH = {
     groupsUpdate: "/groups/:groupId/update",
   
     rooms: "/rooms",
+    roomsCreate: "/rooms/create",
+    roomsMore: "/rooms/:id",
+    roomsUpdate: "/rooms/:id/update",
   }
 
 export default PATH

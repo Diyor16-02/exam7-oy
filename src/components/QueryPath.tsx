@@ -7,6 +7,8 @@ const QueryPATH = {
     teachers:"teachers",
     teacherMore:"teacher-more",
     students: "students",
-    studentMore: "studentMore"
+    studentMore: "studentMore",
+    rooms: "rooms",
+    roomMore: "roomMore",
 }
 export default QueryPATH
